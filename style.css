@@ -1,0 +1,11 @@
+#ricxvi {
+    padding: 10px;
+    outline: none;
+}
+
+button {
+    padding: 10px;
+    background-color: aqua;
+    border-color: transparent;
+    letter-spacing: 1px;
+}
