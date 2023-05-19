@@ -23,28 +23,24 @@
 
 <body style="padding-left: 20px;">
 
+    <form onsubmit="return registracia()" id="myform" style="margin-top: 20px; display: flex;">
+
+        <label for="emeil">ელ. ფოსტა:</label>
+
+        <input type="email" id="email" placeholder="ელ. ფოსტა">
+
+
+        <label for="password">პაროლი:</label>
+
+        <input type="password" id="pass" placeholder="პაროლი">
+
+    </form>
+
     <div style="margin-top: 20px;">
 
-        <input type="number" id="number-one">
-
-        <input type="number" id="number-two">
+        <input type="submit" onclick="registracia()" id="send">
 
     </div>
-
-    <div style="margin-top: 20px;">
-
-        <input type="button" value="დამატება" onclick="damateba()">
-        <input type="button" value="გამოკლება" onclick="gamokleba()">
-        <input type="button" value="გამრავლება" onclick="gamravleba()">
-        <input type="button" value="გაყოფა" onclick="gayofa()">
-
-    </div>
-
-    <br>
-
-    <p>პასუხია:</p>
-
-    <span id="pasuxi"></span>
 
 </body>
 

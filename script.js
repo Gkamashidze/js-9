@@ -1,36 +1,9 @@
-function damateba() {
+function registracia(){
 
-    num1 = document.getElementById("number-one").value;
+    var meili = document.getElementById("email").value;
 
-    num2 = document.getElementById("number-two").value;
+    var paroli = document.getElementById("pass").value;
 
-    document.getElementById("pasuxi").innerHTML = Number(num1) + Number(num2);
+    document.getElementById("myform").reset();
 
-}
-
-function gamokleba() {
-
-    num1 = document.getElementById("number-one").value;
-
-    num2 = document.getElementById("number-two").value;
-
-    document.getElementById("pasuxi").innerHTML = num1 - num2;
-}
-
-function gamravleba() {
-
-    num1 = document.getElementById("number-one").value;
-
-    num2 = document.getElementById("number-two").value;
-
-    document.getElementById("pasuxi").innerHTML = num1 * num2;
-}
-
-function gayofa() {
-
-    num1 = document.getElementById("number-one").value;
-
-    num2 = document.getElementById("number-two").value;
-
-    document.getElementById("pasuxi").innerHTML = num1 / num2;
 }
